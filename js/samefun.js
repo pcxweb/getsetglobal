@@ -36,11 +36,11 @@ function collegeFun(collegeJson){
         var lisListarr = collegeJson[i].list
         for (var j = 0; j < lisListarr.length; j++) {
             lilist+='<li class="col-md-4 col-xs-12">'
-                + '<a href="javascript:;"><img src="/wisdom/images/schoollogo'+lisListarr[j].logo+'" alt="">'
+                + '<a href="javascript:;"><img src="/getsetglobal/images/schoollogo'+lisListarr[j].logo+'" alt="">'
                 + '<p>'+lisListarr[j].title+'</p></a></li>';
         }
         result += '<div class="countryNum" id="'+collegeJson[i].id+'"><div class="childtitle">'
-                + '<img src="/wisdom/images/flag_image'+collegeJson[i].flag+'" alt=""><a href="">'+collegeJson[i].name+'</a></div>'
+                + '<img src="/getsetglobal/images/flag_image'+collegeJson[i].flag+'" alt=""><a href="">'+collegeJson[i].name+'</a></div>'
                 + '<div class="listItem"><ul>'+lilist+'</ul></div></div>'
 
     }
