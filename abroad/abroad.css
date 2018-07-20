@@ -1,0 +1,46 @@
+.abroadMain .container{
+	display: flex;
+	flex-wrap: wrap;
+	/*flex-direction: row;*/
+}
+.abroadMain .container>div{
+	margin-bottom: 20px;
+}
+.itemlist{
+	width: 100%;
+	height: 100%;
+	border:1px solid #fff;
+	background-color: #fff;
+	
+}
+.itemlist h3{
+	padding:10px;
+	font-size: 18px;
+	color: #fff;
+	background-color: #ff9800;
+}
+.itemlist ul{
+	padding-left: 15px;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.itemlist ul li{
+	margin-top: 10px;
+}
+.itemlist ul li a{
+	display: inline-block;
+	vertical-align: middle;
+	color: #2187de;
+}
+.itemlist ul li span.fa{
+	color: #ff6600;
+	margin-right: 10px;
+	vertical-align: middle;
+	animation:movespan .6s linear infinite alternate;
+	-webkit-animation:movespan .6s linear infinite alternate;
+}
+@keyframes movespan
+{
+	from {transform: translateX(0px);}
+	to {transform: translateX(6px);}
+}

@@ -1,0 +1,150 @@
+#country-content,#college-content,#course-content{
+	padding-bottom: 45px;
+}
+#country-content .line,#course-content .line{
+	margin-bottom: 0px;
+}
+#country-content .mainCon,#course-content .mainCon{
+	background-color: #fff;
+}
+#country-content .mainCon>div,#college-content .mainCon>div,#course-content .mainCon>div{
+	display: flex;
+	flex-direction: row;
+	padding:15px;
+}
+.licontxt .title{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-bottom: 15px;
+	border-bottom:1px solid #f44336;
+	margin-bottom: 10px;
+}
+.licontxt h1{
+	color: #f44336;
+	font-size: 18px;
+	margin-left: 15px;
+
+}
+.licontxt .contxt>img{
+	width: 100%;
+}
+.licontxt .contxt{
+	color: #666;
+	font-size: 14px;
+}
+.licontxt .contxt h2{
+	font-size: 16px;
+	color: #000;
+	font-weight: bold;
+	margin:20px 0;
+
+}
+.licontxt .contxt ul{
+	padding-left: 40px;
+}
+.licontxt .contxt p{
+	margin:0 0 10px;
+	font-size: 14px;
+	
+}
+.licontxt .contxt a{
+	color: #ff9800;
+}
+.licontxt .contxt ul li{
+	list-style: disc;
+}
+/*英国*/
+.licontxt table h2 a:hover{
+	text-decoration: underline;
+	color: #2187de;
+}
+
+@media (min-width:992px){
+	.licontxt .contxt>img{
+		width: 60%;
+	}
+}
+
+
+/*college.html 页面*/
+.licontxt .contxt .countryList h3{
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.licontxt .contxt .countryList ul{
+	padding-left: 10px;
+}
+.licontxt .contxt .countryList ul li{
+	float: left;
+	margin-right: 20px;
+	list-style: none;
+	margin-bottom:10px;
+}
+.licontxt .contxt .countryList ul li img{
+	width: 26px;
+	height: 13px;
+	vertical-align: middle;
+}
+.licontxt .contxt .countryList ul li a{
+	vertical-align: middle;
+	color:#2187de;
+	margin-left: 8px;
+}
+.licontxt .contxt .countryNum{
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.licontxt .contxt .countryNum .childtitle{
+	vertical-align: middle;
+}
+.licontxt .contxt .countryNum .childtitle img{
+	margin-right: 8px;
+	vertical-align: middle;
+}
+.licontxt .contxt .countryNum .childtitle a{
+	vertical-align: middle;
+}
+.licontxt .contxt .countryNum ul li{
+	list-style: none;
+}
+.countryNum .listItem ul{
+	padding-left: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.countryNum .listItem ul li{
+	margin-top: 15px;
+}
+.countryNum .listItem ul a{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	border:1px solid #ff9800;
+	color: #2187de;
+	padding:10px;
+	text-align: center;
+}
+/*.countryNum .listItem ul a:hover p{
+	text-decoration: underline;
+	color: #2187de;
+
+}*/
+.countryNum .listItem ul a img{
+	width: 50%;
+	margin-bottom: 10px;
+}
+
+
+/*学位与课程*/
+#course-content .licontxt .contxt h2{
+	margin-bottom: 8px;
+}

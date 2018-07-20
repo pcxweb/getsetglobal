@@ -1,0 +1,140 @@
+/* 新闻详情 */
+#newslist{
+	background-color: #f2f2f2;
+}
+#newslist .newCon{
+	padding:30px 0;
+}
+#newslist .newCon h1{
+	font-weight: bold;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 20px;
+	margin:15px 0;
+}
+#newslist .newCon h2{
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 18px;
+	margin:10px 0;
+}
+#newslist .newCon section>img{
+	width: 80%;
+}
+#newslist .newCon section a{
+	color:#2187de;
+}
+#newslist #content{
+	background: none;
+	padding-bottom: 30px;
+}
+#newslist #content header{
+	border:none;
+	padding-bottom: 0px;
+}
+#newslist #content>p{
+	color: #666;
+	
+}
+#newslist #content img{
+	max-width: 100%;
+}
+#newslist #content p{
+	margin:10px 0;
+}
+#newslist #content h2{
+	display: inline-block;
+}
+#newslist #content article ol{
+	margin-left: 18px;
+}
+#newslist #content article strong{
+	font-size: 12px;
+}
+#newslist #content table{
+	width: 50%;
+	max-width: 100%;
+}
+#newslist #content table td>p{
+	text-align: center;
+	padding:0 8px;
+}
+/*大学详情*/
+.collegecontent article{
+	margin-bottom: 20px;
+}
+.collegecontent article ul{
+	padding-left: 30px;
+	margin-top: -60px;
+
+}
+.collegecontent article ul li{
+	list-style: disc;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+.collegecontent .item-right>div{
+	margin-bottom:15px;
+	/*border:1px solid #a7a4a1;*/
+	/*background-color: #fff;*/
+
+}
+.collegecontent .item-right>div h3{
+	padding:10px;
+	background-color: #a7a4a1;
+	color: #fff;
+	border-left: 3px solid #ff9800
+}
+.collegecontent .item-right ul{
+	padding:10px;
+}
+.collegecontent .item-right ul li{
+	margin-bottom: 10px;
+	color: #666;
+	padding-bottom: 6px;
+	border-bottom: 1px dotted #999
+}
+.collegecontent .item-right ul li:last-child{
+	border-bottom: none
+}
+.collegecontent .item-right ul li span{
+	float: right;
+	margin-left: 10px;
+	color: #ff9800;
+}
+.collegecontent .item-right ul li small{
+	font-size: 12px;
+	color: #999
+}
+.collegecontent .item-right .info p{
+	margin-bottom: 10px;
+}
+
+/*英国文化档案*/
+#ukculture{
+	padding-bottom: 30px;
+	background-color: #f9f9f9;
+}
+#ukculture h1,#ukculture .main_title{
+	font-size: 20px;
+	margin:15px 0;
+	font-family: "Open Sans", Arial, sans-serif;
+}
+#ukculture header{
+	border-bottom: none;
+}
+#ukculture h2{
+	font-size: 20px;
+	margin-bottom: 10px;
+	font-family: "Open Sans", Arial, sans-serif;
+	
+}
+#ukculture article{
+	font-size: 14px;
+	padding:0 10px;
+}
+#ukculture article p{
+	margin-bottom: 10px;
+}
+#content{
+	padding:0 10px;
+	width: 100%;
+}
