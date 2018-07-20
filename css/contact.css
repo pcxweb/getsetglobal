@@ -1,0 +1,56 @@
+.contactMain .form-inline,.contactMain .radiobox{
+	margin: 15px 0;
+}
+#contact-content{
+	padding-bottom: 50px;
+}
+.contactMain h3{
+	font-size: 18px;
+	font-weight: bold;
+	margin:20px 0;
+}
+.contactMain .form-inline .input-group{
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.contactMain .input-group span{
+	color: #ff9800;
+}
+.contactMain .form-inline .input-group .btn,.contactMain .form-inline .input-group input{
+	border-color: #ff9800;
+}
+.contactMain .textareabox .input-group .btn,.contactMain .textareabox .input-group textarea{
+	border-color: #ff9800;
+}
+/*聯絡捷先總公司*/
+.office{margin-bottom: 40px;}
+.office p{color: #666;margin-bottom: 8px;}
+.office p span.fa{
+	display: inline-block;
+	width: 20px;
+	text-align: center;
+	color: #ff9800;
+}
+.office p span.icontxt{
+	font-weight: bold;
+}
+.office p span a{
+	color: blue;
+}
+.office p span a:hover{
+	text-decoration: underline;
+}
+.office .item h5{
+	margin:8px 0;
+	color: #da1958;
+	font-weight: bold;
+	font-size: 16px;
+}
+.office .item{margin-top: 10px;border-bottom:1px dotted #ff9800;}
+
+@media (min-width: 992px){
+	.office .item{
+		border-right: 1px dotted #ff9800;
+		border-bottom: none
+	}
+}

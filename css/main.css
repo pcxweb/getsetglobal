@@ -1,0 +1,198 @@
+/*内容部分*/
+.subsection{display: flex;flex-wrap: wrap;}
+.subsection>div{
+  padding-top: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.subsection .section1,.subsection .section3{
+  background-color: #f4f4f4;
+}
+.subsection .section2{
+  background-color: #ffffff;
+}
+.subsection .title{
+  border-left: 8px solid #ff9800;
+  color: #ff9800;
+  font-size: 20px;
+  padding-left:24px;
+}
+.subsection .subsection-item{
+  padding: 0 32px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.subsection .subsection-item .child-item{
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px dashed #000;
+}
+.subsection-item .child-item p.txt{
+  color: #666;
+  font-weight: bold;
+}
+.subsection-item .child-item p span{
+  color: red;
+  font-weight: bold;
+  vertical-align: middle;
+  font-size: 20px;
+}
+.subsection-item .child-item p span.fa{
+  margin-right: 8px;
+  color: #ff6600;
+  font-size: 16px;
+}
+
+.section2 .featured-items {
+  margin-top: 26px;
+  position: relative;
+  margin-bottom: 26px;
+}
+.section2 .featured-items .cycle-pager {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 100px;
+  z-index: 8000;
+}
+.section2 .featured-items .more{
+  position: absolute;
+  width: auto;
+  text-align: right;
+  bottom: -12;
+  right: 12px;
+  z-index: 8000;
+}
+.section2 .featured-items .more a{color: #ff9800;}
+.section2 .featured-items .more a span{margin-left: 5px;font-size: 16px;}
+.section2 .featured-items .item {
+  padding: 0 20px;
+  width: 100%;
+}
+.section2 .featured-items .item .item-image {
+  display: block;
+  margin-bottom: 39px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 431px;
+}
+.section2 .featured-items .item .item-image img {
+  width: 100%;
+  height: auto;
+}
+.section2 .featured-items .item a.item-name {
+  color: #0089d0;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  line-height: 23px;
+  display: block;
+}
+.section2 .featured-items .item .item-desc {
+  line-height: 23px;
+  display: block;
+  overflow: hidden;
+  height: 69px;
+  text-overflow: ellipsis;
+}
+.section2 .featured-items .cycle-pager span {
+  display: inline-block;
+  text-indent: -9999px;
+  width: 15px;
+  height: 14px;
+  background: url(img/slideshow_off.png) no-repeat;
+  margin: 0 4px;
+  cursor: pointer;
+}
+.section2 .featured-items .cycle-pager span.cycle-pager-active,
+.section2 .featured-items .cycle-pager span:hover {
+  background: url(img/slideshow_on.png) no-repeat;
+}
+.services{margin-top: 10px;color: #666}
+#servicesBox{
+  position: relative;
+  height: 330px;
+  overflow: hidden;
+}
+#servicesBox{
+  width: 90%;
+}
+#servicesBox .swiper-slide{
+  height: auto;
+  margin-top: 10px;
+}
+#servicesBox img{
+  width: 100px;
+  height: 100px;
+}
+#servicesBox .service-title{color: #ff6600;}
+.services .direction{
+    position: relative;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #bbbaba;
+}
+
+.services .direction .swiper-button-prev, .services .direction .swiper-button-next {
+    width: 18px;
+    height: 30px;
+    margin-top: -15px;
+    background-size: 18px 30px;
+    outline: none;
+}
+.services .direction .swiper-button-prev{
+  left: 30%;
+}
+.services .direction .swiper-button-next{
+  right: 30%
+}
+
+@media (max-width: 1160px) {
+  
+}
+@media (max-width: 1160px) and (min-width: 768px) {
+  .section2 .featured-items .cycle-pager {
+    bottom: 32px;
+    text-align: left;
+    width: auto;
+  }
+  .section2 .featured-items .item:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .section2 .featured-items .item .item-image {
+    float: left;
+    width: 314px;
+  }
+  .section2 .featured-items .item .item-right {
+    float: right;
+    margin-left: 38px;
+    padding: 8px 0;
+  }
+  .section2 .featured-items .item .item-right .item-desc {
+    height: 138px;
+  }
+  .section2 .institutions-items .item .item-right .item-desc {
+    height: 23px;
+  }
+}
+@media (max-width: 767px) {
+  .home-banner .home-banner-item {
+    background: white;
+  }
+  .home-banner .home-banner-item .caption {
+    position: relative;
+    width: 90%;
+    padding: 26px 5%;
+  }
+  .home-banner .cycle-prev {
+    right: 60px;
+  }
+  .home-banner .cycle-next {
+    right: 26px;
+  }
+  
+}

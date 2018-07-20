@@ -1,0 +1,29 @@
+.editor * { margin:0px; padding:0px; color:#424242; font-size: 15px; word-wrap: break-word; }
+
+.editor, .editor p, .editor div, .editor a, .editor li, .editor td, .editor th {  word-wrap: break-word; white-space: normal; font-size: 15px;text-align:justify; }
+
+.editor, .editor p, .editor li { line-height:23px; }
+
+.editor img { border:none; }
+
+.editor a, .editor a:link, .editor a:active, .editor a:visited { color:#424242;}
+
+.editor a:hover { color:#424242; }
+
+.editor ol { margin-left:25px; }
+
+.editor ul li{
+	padding-left:25px;
+	list-style:none;
+	background:url(img/li-bullet.png) 0 6px no-repeat;
+}
+
+.editor table.border_class, .editor table.border_class td, .editor table.border_class th { border-collapse:collapse; border:solid #CCCCCC 1px; }
+
+.editor td, .editor th { padding:3px; }
+
+hr { border:none; height:1px; background-color:#CCCCCC; color:#CCCCCC; }
+
+.editor table.table-center{margin:0 auto;}
+
+.editor .underline, .editor .underline * { text-decoration:underline; }

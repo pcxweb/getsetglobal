@@ -1,0 +1,169 @@
+#about-content{
+	background-color: #f2f2f2;
+	padding-bottom: 20px;
+}
+#about-content .home-banner{
+	position: relative;
+	height: 155px;
+	overflow:hidden;
+}
+#about-content .home-banner img{
+	width: 100%;
+	-webkit-filter: blur(5px); /* Chrome, Safari, Opera */
+    filter: blur(5px);
+    min-height: 155px;
+}
+#about-content .home-banner p{
+	position: absolute;
+	top:50%;
+	left:50%;
+	color: #fff;
+	font-size: 20px;
+	transform: translate(-50%,-50%);
+}
+#about-content .nav-text{
+	padding:10px 0;
+}
+#about-content .line{
+	width: 100%;
+	height: 1px;
+	background-color: #dcdcdc;
+	margin-bottom: 15px;
+}
+/*#about-content .nav-text span{
+	color: #666;
+}
+#about-content .nav-text span.fa-home{
+	color: #ff6600;
+}
+#about-content .nav-text a{
+	margin:0 8px;
+	color: #ff6600;
+}*/
+/*main*/
+.mainCon>div{
+	display: flex;
+	flex-direction: row;
+}
+/*why*/
+.mainCon .event-con-right .why>div h3{
+	color: #000;
+	font-weight: bold;
+	font-size: 18px;
+	margin:10px 0;
+}
+.mainCon .event-con-right .why>div{
+	margin-bottom: 30px;
+}
+.mainCon .event-con-right .why>div p{
+	margin:10px 0;
+	color: #666;
+}
+.mainCon .event-con-right .why>div a{color: #ff9800;}
+/*最新消息*/
+.latestNew .row,.scholarShip .row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.latestNew .row>div,.scholarShip .row>div{
+	margin-bottom: 15px;
+}
+.latestNew .row .newBox{
+	height: 100%;
+	border: 1px solid #e2781d;
+}
+.latestNew .newimg img{
+	width: 100%;
+}
+.latestNew .newtxt{
+	padding: 8px;
+	border-top:1px solid #e6ebed;
+}
+.latestNew .newtxt p i,.latestNew .newtxt p span{vertical-align: middle;}
+.latestNew .newtxt .ptitle{margin:10px 0;}
+.latestNew .newtxt .ptitle a{color: #ff9800;}
+.latestNew .newtxt .pdesc{color: #666;font-size: 14px;margin-top: 10px;}
+/*學生意見分享*/
+.studentView{color: #666;}
+.studentView>h3{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.studentView>p{
+	margin:10px 0;
+}
+.studentView .item{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.studentView .item .item-left{
+	width: 20%;
+	float: left;
+	background-color: #fff;
+	box-sizing: border-box;
+	padding:10px;
+	box-shadow: 0 0 10px #ff9800;
+}
+.studentView .item .item-left img{
+	width: 100%;
+
+}
+.studentView .item .item-right{
+	float: right;
+	width: 70%;
+	background-color:#fff;
+	box-sizing: border-box;
+	padding:10px 20px;
+	position: relative;
+	border:1px solid #ccc;
+	border-radius: 5px;
+}
+.studentView .item .item-right:before{
+	content: "";
+	position:absolute;
+	top:25px;
+	left:-11px;
+	width: 20px;
+	height: 20px;
+	transform: rotate(45deg);
+	background-color: #fff;
+	border-left:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	border-bottom-left-radius: 5px;
+}
+.studentView .item .item-right .name span{
+	color: #ff9800;
+
+}
+.studentView .item .item-right .editor{
+	padding:20px 0;
+}
+.studentView .item .item-right .editor p{
+	margin: 15px 0;
+	color: #666;
+}
+
+/*奖学金*/
+.scholarShip .scholarShipBox{
+	text-align: center;
+	border:1px solid #ff9800;
+	/*border:1px solid #dcdcdc;
+	background-color: #dcdcdc;*/
+}
+.scholarShip .scholarShipBox>div{
+	padding:10px 0;
+	color: #666;
+	background-color: #dcdcdc;
+}
+.scholarShip .scholarShipBox>div:nth-child(2n+1){
+	background-color: #fff;
+}
+.scholarShip .scholarShipBox>div.title{
+	border-bottom: 1px solid #dcdcdc;
+}
+/*.scholarShip .scholarShipBox>div.desc{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}*/

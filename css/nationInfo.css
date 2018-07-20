@@ -1,0 +1,43 @@
+.infomain{
+	display: flex;
+	flex-wrap: wrap;
+}
+.infomain>div{
+	margin-bottom: 20px;
+}
+.infomain .itemlist{
+	display: flex;
+	flex-direction: row;
+}
+.infomain .itemlist{
+	border:1px solid #ccc;
+}
+.infomain .itemlist img{
+	display: none
+}
+.infomain .itemlist .txt{
+	padding:10px;
+}
+.infomain .itemlist .txt h5{
+	color: #dc1543;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+.infomain .itemlist .txt ul{
+	margin-left: 15px;
+}
+.infomain .itemlist .txt ul li{
+	margin-bottom: 5px;
+}
+.infomain .itemlist .txt ul li a{
+	color: #2187de;
+}
+/*.infomain .itemlist .txt ul li a span{
+	color: #ff6600;
+}*/
+@media (min-width: 992px){
+	.infomain .itemlist img {
+	    display: inline-block;
+	}
+}
